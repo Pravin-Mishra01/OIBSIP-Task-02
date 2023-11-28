@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading_bar {
+  background-color: skyblue;
+  height: 80px;
+  border: 2px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.heading {
+  padding-top: 25px;
+  text-align: center;
+  font-size: larger;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav1 {
+  display: flex;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.nav {
+  display: flex;
+
+  padding-right: 25px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bolder;
+}
+
+ul {
+  padding: 15px;
+}
+
+.section {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(25, 74, 25);
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.side_right {
+  width: 650px;
+  height: 650px;
+}
+
+.side_left {
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 130px;
+  padding-left: 35px;
+  font-size: larger;
+}
+
+
+.hr{
+  padding-top: 5px;
+}
+
+.section2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.sec1 {
+  padding-top: 50px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.sec2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+.memories_ms {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 325px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+}
+
+
+
+
+
+.memories img {
+justify-content: space-between;
+  width: 250px;
+  height: 350px;
+  padding-inline: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+ .memories img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
